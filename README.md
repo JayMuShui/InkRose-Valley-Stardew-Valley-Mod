@@ -53,16 +53,16 @@ If you can use Chinese or have a Chinese knowledge, use [zh.json](https://github
 | :------------------- | :------ | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :--- 
 | Chinese _(Source)_   |[zh.json](https://github.com/JayMuShui/InkRose-Valley-Stardew-Valley-Mods/blob/main/%5BCP%5DInkRoseValley/i18n/zh.json)|★| _JayMuShui(Source)_ |_(Mods Updated Time)_|-|Source language
 | English _(Default)_  |[default.json](https://github.com/JayMuShui/InkRose-Valley-Stardew-Valley-Mods/blob/main/%5BCP%5DInkRoseValley/i18n/default.json)|★| JayMuShui|_(Mods Updated Time)_|-|General language   
-| French               | fr.json |❑|||||
-| German               | de.json |❑|||||
-| Hungarian            | hu.json |❑|||||    
-| Italian              | it.json |❑|||||      
-| Japanese             | ja.json |❑|||||       
-| Korean               | ko.json |❑|||||    
-| Portuguese           | pt.json |❑|||||       
-| Russian              | ru.json |❑|||||     
-| Spanish              | es.json |❑|||||    
-| Turkish              | tr.json |❑|||||     
+| French               | fr.json |❑|
+| German               | de.json |❑|
+| Hungarian            | hu.json |❑|   
+| Italian              | it.json |❑|      
+| Japanese             | ja.json |❑|       
+| Korean               | ko.json |❑|    
+| Portuguese           | pt.json |❑|      
+| Russian              | ru.json |❑|     
+| Spanish              | es.json |❑|   
+| Turkish              | tr.json |❑|     
 
 _**non-vanilla supported languages? ** Contact <jaymushui@outlook.com>or **Discord@JayMuShui** to add with your i18n files._
 
