@@ -26,7 +26,7 @@
 
 
 
-**Thank you very much for being able to translate our mods! **
+**Thank you very much for being able to translate our mods!**
 
 
 
@@ -100,7 +100,7 @@ If you can use Chinese or have a Chinese knowledge, use [zh.json](https://github
 | Spanish              | es.json                                                                                                                             | ❑      |                     |                          |         |                  |
 | Turkish              | tr.json                                                                                                                             | ❑      |                     |                          |         |                  |
 
-_**non-vanilla supported languages? ** Contact <jaymushui@outlook.com>or **Discord@JayMuShui** to add with your i18n files._
+_**non-vanilla supported languages?** Contact <jaymushui@outlook.com>or **Discord@JayMuShui** to add with your i18n files._
 
 
 
