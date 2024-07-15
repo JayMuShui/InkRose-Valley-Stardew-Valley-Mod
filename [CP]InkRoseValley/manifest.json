@@ -1,0 +1,14 @@
+{
+  "Name": "InkRose Valley for CP",
+  "Author": "JayMushui", //In Fact,With YingHuaLuo,XinYe and Jinju
+  "Version": "1.0.0-beta",
+  "Description": "Dedicated to transforming the male characters of Stardew Valley into females by modifying or adding new dialogues, events, images, etc",
+  "UniqueID": "JayMushui.InkRoseValleyCP",
+  "MinimumApiVersion": "",
+  "UpdateKeys": ["Nexus:???","Github:JayMuShui/InkRose-Valley-Stardew-Valley-Mods"],
+  "ContentPackFor": 
+		{
+		"UniqueID": "Pathoschild.ContentPatcher",
+		},
+
+}

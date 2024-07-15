@@ -1,0 +1,346 @@
+﻿{
+    "Format": "2.3.0",
+    "ConfigSchema": {
+        // Settings for individual villagers | 角色个体设置
+        "AlexChange": {
+            "AllowValues": "true,false",
+            "AllowBlank": false,
+            "AllowMultiple": false,
+            "Default": "true",
+            "Section": "Villagers-Setting",
+            "Description":"Enable Alex Changes"
+        },
+        "ElliottChange": {
+            "AllowValues": "true,false",
+            "AllowBlank": false,
+            "AllowMultiple": false,
+            "Default": "true",
+            "Section": "Villagers-Setting",
+            "Description":"Enable Elliott Changes"
+        },
+        "HarveyChange": {
+            "AllowValues": "true,false",
+            "AllowBlank": false,
+            "AllowMultiple": false,
+            "Default": "true",
+            "Section": "Villagers-Setting",
+            "Description":"Enable Harvey Changes"
+        },
+        "SamChange": {
+            "AllowValues": "true,false",
+            "AllowBlank": false,
+            "AllowMultiple": false,
+            "Default": "true",
+            "Section": "Villagers-Setting",
+            "Description":"Enable Sam Changes"
+        },
+        "SebastianChange": {
+            "AllowValues": "true,false",
+            "AllowBlank": false,
+            "AllowMultiple": false,
+            "Default": "true",
+            "Section": "Villagers-Setting",
+            "Description":"Enable Sebastian Changes"
+        },
+        "ShaneChange": {
+            "AllowValues": "true,false",
+            "AllowBlank": false,
+            "AllowMultiple": false,
+            "Default": "true",
+            "Section": "Villagers-Setting",
+            "Description":"Enable Shane Changes"
+        }
+    },
+
+/*To the translator, please translate the section under this note*/
+/*致译者，请翻译这个注释下的部分*/
+/*Au traducteur, veuillez traduire la section sous cette note*/
+/*An den Übersetzer, bitte übersetzen Sie den Abschnitt unter diesem Hinweis*/
+/*A fordítónak kérjük, fordítsa le a megjegyzés alatti részt*/
+/*Al traduttore, si prega di tradurre la sezione sotto questa nota*/
+/*翻訳者は、このメモの下のセクションを翻訳してください*/
+/*번역자에게는 이 메모 아래의 부분을 번역해 주십시오*/
+/*Para o tradutor, por favor traduza a secção abaixo desta nota*/
+/*Переводчику, пожалуйста, переведите раздел под этим примечанием*/
+/*Al traductor, por favor, traduzca la sección de esta nota*/
+/*Çevirmene, lütfen bu notun altındaki bölümü çevirin*/
+
+
+         
+////////////////////////////////////////////////////////////////////
+///////////////////////////WROKING//////////////////////////////////
+////////////////////////////////////////////////////////////////////
+
+
+
+/*To the translator, only need to translate the part above this note*/
+/*致译者，请翻译这个注释上的部分即可*/
+/*Au traducteur, il suffit de traduire la partie au-dessus de cette note*/
+/*An den Übersetzer, nur den Teil über diesem Hinweis übersetzen*/
+/*Fordítóhoz, csak a jegyzet felett lévő részt kell lefordítani*/
+/*Al traduttore, basta tradurre la parte sopra questa nota*/
+/*翻訳者へ、この注釈の上の部分だけを翻訳してください*/
+/*번역자에게, 이 주석 위의 부분만 번역하면 됩니다*/
+/*Para o tradutor, só precisa de traduzir a parte acima desta nota*/
+/*Переводчику: нужно перевести только текст выше этого замечания*/
+/*Al traductor, solo necesita traducir la parte encima de esta nota*/
+/*Çevirmene: yalnızca bu notun üstündeki kısmı çevirmen yeterli*/
+       
+    "Changes": [ 
+        
+    //Portraits|肖像差分
+/*Must Use HDP Mod or Replace Files|必须使用高清肖像或者替换掉文件*/
+///Alex
+       {
+          "Action": "Load",
+          "Target": "Portraits/Alex",
+          "FromFile": "assets/Portraits/Alex/Alex.png",
+		  "When": {"AlexChange": true}
+       },
+	   {
+		"Action": "Load",
+		"Target": "Portraits/Alex_Beach",
+		"FromFile": "assets/Portraits/Alex/Alex_Beach.png",
+		"When": {"AlexChange": true}
+	   },
+	   {
+		"Action": "Load",
+		"Target": "Portraits/Alex_Winter",
+		"FromFile": "assets/Portraits/Alex/Alex_Winter.png",
+		"When": {"AlexChange":true}
+	   },
+///Elliott
+       {
+          "Action": "Load",
+          "Target": "Portraits/Elliott",
+          "FromFile": "assets/Portraits/Elliott/Elliott.png",
+		  "When": {"ElliottChange": true}
+       },
+	   {
+		  "Action": "Load",
+		  "Target": "Portraits/Elliott_Beach",
+		  "FromFile": "assets/Portraits/Elliott/Elliott_Beach.png",
+		  "When": {"ElliottChange": true}
+	   },
+	   {
+		  "Action": "Load",
+		  "Target": "Portraits/Elliott_Winter",
+		  "FromFile": "assets/Portraits/Elliott/Elliott_Winter.png",
+		  "When": {"ElliottChange": true}
+	   },
+
+
+///Harvey	   
+       {
+          "Action": "Load",
+          "Target": "Portraits/Harvey",
+          "FromFile": "assets/Portraits/Harvey/Harvey.png",
+		  "When": {"HarveyChange": true}
+       },
+	   {
+		  "Action": "Load",
+		  "Target": "Portraits/Harvey_Beach",
+		  "FromFile": "assets/Portraits/Harvey/Harvey_Beach.png",
+		  "When": {"HarveyChange": true}
+	   },
+	   {
+		  "Action": "Load",
+		  "Target": "Portraits/Harvey_Winter",
+		  "FromFile": "assets/Portraits/Harvey/Harvey_Winter.png",
+		  "When": {"HarveyChange": true}
+	   },
+
+	   
+///Sam
+       {
+          "Action": "Load",
+          "Target": "Portraits/Sam",
+          "FromFile": "assets/Portraits/Sam/Sam.png",
+		  "When": {"SamChange": true}
+       },
+	   {
+		  "Action": "Load",
+		  "Target": "Portraits/Sam_Beach",
+		  "FromFile": "assets/Portraits/Sam/Sam_Beach.png",
+		  "When": {"SamChange": true}
+	   },
+	   {
+		  "Action": "Load",
+		  "Target": "Portraits/Sam_Winter",
+		  "FromFile": "assets/Portraits/Sam/Sam_Winter.png",
+		  "When": {"SamChange": true}
+	   },
+
+
+///Sebastian
+       {
+          "Action": "Load",
+          "Target": "Portraits/Sebastian",
+          "FromFile": "assets/Portraits/Sebastian/Sebastian.png",
+		  "When": {"SebastianChange": true}
+       },
+	   {
+		  "Action": "Load",
+		  "Target": "Portraits/Sebastian_Beach",
+		  "FromFile": "assets/Portraits/Sebastian/Sebastian_Beach.png",
+		  "When": {"SebastianChange": true}
+	   },
+	   {
+		  "Action": "Load",
+		  "Target": "Portraits/Sebastian_Winter",
+		  "FromFile": "assets/Portraits/Sebastian/Sebastian_Winter.png",
+		  "When": {"SebastianChange": true}
+	   },
+
+///Shane
+       {
+          "Action": "Load",
+		  "Target": "Portraits/Shane",
+          "FromFile": "assets/Portraits/Shane/Shane.png",
+		  "When": {"ShaneChange": true}
+       },
+	   {
+		  "Action": "Load",
+		  "Target": "Portraits/Shane_Beach",
+		  "FromFile": "assets/Portraits/Shane/Shane_Beach.png",
+		  "When": {"ShaneChange": true}
+		},
+		{
+		  "Action": "Load",
+		  "Target": "Portraits/Shane_Winter",
+		  "FromFile": "assets/Portraits/Shane/Shane_Winter.png",
+		  "When": {"ShaneChange": true}
+		},
+//Characters|行走图
+
+///Alex
+       {
+          "Action": "Load",
+          "Target": "Characters/Alex",
+          "FromFile": "assets/Characters/Alex/Alex.png",
+		  "When": {"AlexChange": true}
+       },
+	   {
+		"Action": "Load",
+		"Target": "Characters/Alex_Beach",
+		"FromFile": "assets/Characters/Alex/Alex_Beach.png",
+		"When": {"AlexChange": true}
+	   },
+	   {
+		"Action": "Load",
+		"Target": "Characters/Alex_Winter",
+		"FromFile": "assets/Characters/Alex/Alex_Winter.png",
+		"When": {"AlexChange":true}
+	   },
+///Elliott
+       {
+          "Action": "Load",
+          "Target": "Characters/Elliott",
+          "FromFile": "assets/Characters/Elliott/Elliott.png",
+		  "When": {"ElliottChange": true}
+       },
+	   {
+		  "Action": "Load",
+		  "Target": "Characters/Elliott_Beach",
+		  "FromFile": "assets/Characters/Elliott/Elliott_Beach.png",
+		  "When": {"ElliottChange": true}
+	   },
+	   {
+		  "Action": "Load",
+		  "Target": "Characters/Elliott_Winter",
+		  "FromFile": "assets/Characters/Elliott/Elliott_Winter.png",
+		  "When": {"ElliottChange": true}
+	   },
+
+
+///Harvey	   
+       {
+          "Action": "Load",
+          "Target": "Characters/Harvey",
+          "FromFile": "assets/Characters/Harvey/Harvey.png",
+		  "When": {"HarveyChange": true}
+       },
+	   {
+		  "Action": "Load",
+		  "Target": "Characters/Harvey_Beach",
+		  "FromFile": "assets/Characters/Harvey/Harvey_Beach.png",
+		  "When": {"HarveyChange": true}
+	   },
+	   {
+		  "Action": "Load",
+		  "Target": "Characters/Harvey_Winter",
+		  "FromFile": "assets/Characters/Harvey/Harvey_Winter.png",
+		  "When": {"HarveyChange": true}
+	   },
+
+	   
+///Sam
+       {
+          "Action": "Load",
+          "Target": "Characters/Sam",
+          "FromFile": "assets/Characters/Sam/Sam.png",
+		  "When": {"SamChange": true}
+       },
+	   {
+		  "Action": "Load",
+		  "Target": "Characters/Sam_Beach",
+		  "FromFile": "assets/Characters/Sam/Sam_Beach.png",
+		  "When": {"SamChange": true}
+	   },
+	   {
+		  "Action": "Load",
+		  "Target": "Characters/Sam_Winter",
+		  "FromFile": "assets/Characters/Sam/Sam_Winter.png",
+		  "When": {"SamChange": true}
+	   },
+
+
+///Sebastian
+       {
+          "Action": "Load",
+          "Target": "Characters/Sebastian",
+          "FromFile": "assets/Characters/Sebastian/Sebastian.png",
+		  "When": {"SebastianChange": true}
+       },
+	   {
+		  "Action": "Load",
+		  "Target": "Characters/Sebastian_Beach",
+		  "FromFile": "assets/Characters/Sebastian/Sebastian_Beach.png",
+		  "When": {"SebastianChange": true}
+	   },
+	   {
+		  "Action": "Load",
+		  "Target": "Characters/Sebastian_Winter",
+		  "FromFile": "assets/Characters/Sebastian/Sebastian_Winter.png",
+		  "When": {"SebastianChange": true}
+	   },
+
+///Shane
+       {
+          "Action": "Load",
+		  "Target": "Characters/Shane",
+          "FromFile": "assets/Characters/Shane/Shane.png",
+		  "When": {"ShaneChange": true}
+       },
+	   {
+		  "Action": "Load",
+		  "Target": "Characters/Shane_Beach",
+		  "FromFile": "assets/Characters/Shane/Shane_Beach.png",
+		  "When": {"ShaneChange": true}
+		},
+		{
+		  "Action": "Load",
+		  "Target": "Characters/Shane_Winter",
+		  "FromFile": "assets/Characters/Shane/Shane_Winter.png",
+		  "When": {"ShaneChange": true}
+		},
+        {
+            "Action": "Load",          
+            "Target": "Characters/Shane_JojaMart",
+            "FromFile": "assets/Characters/Shane/Shane_JojaMart.png",
+            "When": {"ShaneChange": true}
+        }		         
+    ]
+}		         
+    
+    

@@ -1,0 +1,21 @@
+{
+  "Name": "InkRose Valley for HDP",
+	"Author": "FriendsOfJayMuShui",
+  "Version": "1.0.0-beta",
+	"Description": "InkRose Valley Official High Definition Portrait by YingHuaLuo,XinYe and Jinju",
+	"UniqueID": "JayMushuiWith.InkRoseValleyHDP",
+	"UpdateKeys": ["Nexus:???","Github:JayMuShui/InkRose-Valley-Stardew-Valley-Mods"],
+	"ContentPackFor": {
+        "UniqueID": "Smallfire.HDPortraiturePlus"
+    },
+  "Dependencies": [
+        {
+          "UniqueID": "Smallfire.HDPortraiturePlus",
+          "IsRequired": true
+        },
+        {
+          "UniqueID": "Platonymous.Portraiture",
+          "IsRequired": false
+       },
+]
+}
