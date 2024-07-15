@@ -1,33 +1,22 @@
 # InkRose Valley | 墨花谷物语
 
 
-<<<<<<< HEAD
+
 **Dedicated to transforming the male characters of Stardew Valley into females by modifying or adding new dialogues, events, images, etc**
-=======
-**Dedicated to transforming the male portraits of Stardew Valley into females by modifying or adding new dialogues, events, images, etc**
->>>>>>> b209bec50d1a7098f388ca95cacbfcf3cbc50a09
 
 
 **致力于通过对于对话，事件，图像等的修改或新增娘化星露谷的男性角色**
 
-<<<<<<< HEAD
-# Log | 更新日志 _（这里是临时垃圾桶!）_
-=======
 
->>>>>>> b209bec50d1a7098f388ca95cacbfcf3cbc50a09
+# Log | 更新日志 _（这里是临时垃圾桶!）_
+
 
 2024-07-15 15:39:16(UTC+8)：加载肖像和行走图的代码写入
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> b209bec50d1a7098f388ca95cacbfcf3cbc50a09
 ![meme](https://telegraph-image-2qa.pages.dev/file/80511f1416009d27749ef.png)
 
 
-
-<<<<<<< HEAD
 2024-07-15 14:39:18(UTC+8): 基础可识别文件构建完成（CP,HDP），i18n配置完成。
 
 
@@ -60,8 +49,8 @@ If you can use Chinese or have a Chinese knowledge, use [zh.json](https://github
 >(❑ = untranslated, ↻ = need to updated, ✓ = newly translated)
 
 
-| Language Translation | i18n    | Status   |  Translater   | Last Updated Time(UTC+8)   |  Version   |    Remark  |    
-| :------------------- | :------ | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :----- |
+| Language Translation | i18n    | Status   |  Translater   | Last Updated Time(UTC+8)   |  Version | Remark |    
+| :------------------- | :------ | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :--- 
 | Chinese _(Source)_   |[zh.json](https://github.com/JayMuShui/InkRose-Valley-Stardew-Valley-Mods/blob/main/%5BCP%5DInkRoseValley/i18n/zh.json)|★| _JayMuShui(Source)_ |_(Mods Updated Time)_|-|Source language
 | English _(Default)_  |[default.json](https://github.com/JayMuShui/InkRose-Valley-Stardew-Valley-Mods/blob/main/%5BCP%5DInkRoseValley/i18n/default.json)|★| JayMuShui|_(Mods Updated Time)_|-|General language   
 | French               | fr.json |❑|||||
@@ -88,5 +77,5 @@ _**non-vanilla supported languages? ** Contact <jaymushui@outlook.com>or **Disco
 2024-07-15 14:39:18(UTC+8): 基础可识别文件构建完成（CP,HDP），i18n配置完成。
 
 
->>>>>>> b209bec50d1a7098f388ca95cacbfcf3cbc50a09
+
 
